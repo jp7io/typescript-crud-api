@@ -1,0 +1,134 @@
+swagger: '2.0'
+info:
+  title: TypeScript CRUD API (Backend)
+  description: https://github.com/jp7internet/typescript-crud-api
+
+host: localhost:4000
+schemes:
+  - http
+
+paths:
+  /articles:
+    get:
+      tags: [articles]
+      parameters:
+        - name: relations[]
+          in: query
+          description: 'Which relations should be returned (e.g.: author)'
+      responses:
+        200:
+          description: OK
+
+    post:
+      tags: [articles]
+      parameters:
+        - name: body
+          in: body
+      responses:
+        200:
+          description: OK
+          schema:
+            $ref: '#/definitions/ARTICLE'
+
+  /articles/{id}:
+    get:
+      tags: [articles]
+      parameters:
+        - name: id
+          in: path
+      responses:
+        200:
+          description: OK
+
+    put:
+      tags: [articles]
+      parameters:
+        - name: id
+          in: path
+        - name: body
+          in: body
+      responses:
+        200:
+          description: OK
+          schema:
+            $ref: '#/definitions/ARTICLE'
+
+    delete:
+      tags: [articles]
+      parameters:
+        - name: id
+          in: path
+      responses:
+        200:
+          description: OK
+
+  /authors:
+    get:
+      tags: [authors]
+      parameters:
+        - name: relations[]
+          in: query
+          description: 'Which relations should be returned (e.g.: articles)'
+      responses:
+        200:
+          description: OK
+
+    post:
+      tags: [authors]
+      parameters:
+        - name: body
+          in: body
+      responses:
+        200:
+          description: OK
+          schema:
+            $ref: '#/definitions/ARTICLE'
+
+  /authors/{id}:
+    get:
+      tags: [authors]
+      parameters:
+        - name: id
+          in: path
+      responses:
+        200:
+          description: OK
+
+    put:
+      tags: [authors]
+      parameters:
+        - name: id
+          in: path
+        - name: body
+          in: body
+      responses:
+        200:
+          description: OK
+          schema:
+            $ref: '#/definitions/ARTICLE'
+
+    delete:
+      tags: [authors]
+      parameters:
+        - name: id
+          in: path
+      responses:
+        200:
+          description: OK
+
+definitions:
+  ARTICLE:
+    type: object
+    properties:
+      title:
+        type: string
+      text:
+        type: string
+      author:
+        type: number
+
+  AUTHOR:
+    type: object
+    properties:
+      name:
+        type: string
