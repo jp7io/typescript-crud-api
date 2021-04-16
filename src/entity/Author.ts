@@ -1,4 +1,5 @@
 import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from 'typeorm';
+import { Length } from 'class-validator';
 import { Article } from './Article';
 
 @Entity()
@@ -7,6 +8,7 @@ export class Author {
   id: number;
 
   @Column()
+  @Length(3, 50)
   name: string;
 
   @OneToMany((type) => Article, (article) => article.author, {

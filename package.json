@@ -18,6 +18,7 @@
   "dependencies": {
     "@types/cors": "^2.8.10",
     "@types/express": "^4.17.11",
+    "class-validator": "^0.13.1",
     "concurrently": "^6.0.2",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
