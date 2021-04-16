@@ -10,6 +10,7 @@
     "start:server": "nodemon ./build/index.js",
     "start": "node ./build/index.js",
     "build": "tsc",
+    "seed": "tsc;node ./build/utils/seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
