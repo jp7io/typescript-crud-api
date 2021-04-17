@@ -1,12 +1,10 @@
-import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
+import { Entity, Column, ManyToOne } from 'typeorm';
 import { Length } from 'class-validator';
+import { Record } from './Record';
 import { Author } from './Author';
 
 @Entity()
-export class Article {
-  @PrimaryGeneratedColumn()
-  id: number;
-
+export class Article extends Record {
   @Column()
   @Length(3, 50)
   title: string;
