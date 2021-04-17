@@ -13,6 +13,8 @@ https://github.com/jp7internet/typescript-crud-api/wiki
 
 #### Screenshots
 
+![Swagger](https://github.com/jp7internet/typescript-crud-api/wiki/images/swagger.png)
+
 https://github.com/jp7internet/typescript-crud-api/wiki/Screenshots
 
 #### Includes
