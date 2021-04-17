@@ -13,7 +13,9 @@ https://github.com/jp7internet/typescript-crud-api/wiki
 
 #### Screenshots
 
-![Swagger](https://github.com/jp7internet/typescript-crud-api/wiki/images/swagger.png)
+| Swagger | Entities |
+| ------------- | ------------- |
+| ![Swagger](https://github.com/jp7internet/typescript-crud-api/wiki/images/swagger.png) | ![Swagger](https://github.com/jp7internet/typescript-crud-api/wiki/images/entities.png) |
 
 https://github.com/jp7internet/typescript-crud-api/wiki/Screenshots
 
