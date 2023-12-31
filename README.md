@@ -5,19 +5,19 @@
 ####  Live Demo
 
 * This API: https://typescript-crud-api.herokuapp.com
-* Frontend: https://jp7internet.github.io/typescript-crud
+* Frontend: https://jp7io.github.io/typescript-crud
 
 #### Step-by-Step Tutorial
 
-https://github.com/jp7internet/typescript-crud-api/wiki
+https://github.com/jp7io/typescript-crud-api/wiki
 
 #### Screenshots
 
 | Swagger | Entities |
 | ------------- | ------------- |
-| ![Swagger](https://github.com/jp7internet/typescript-crud-api/wiki/images/swagger.png) | ![Swagger](https://github.com/jp7internet/typescript-crud-api/wiki/images/entities.png) |
+| ![Swagger](https://github.com/jp7io/typescript-crud-api/wiki/images/swagger.png) | ![Swagger](https://github.com/jp7io/typescript-crud-api/wiki/images/entities.png) |
 
-https://github.com/jp7internet/typescript-crud-api/wiki/Screenshots
+https://github.com/jp7io/typescript-crud-api/wiki/Screenshots
 
 #### Includes
 
